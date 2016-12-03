@@ -70,3 +70,22 @@ test('123.45D-67');
 // /^ $/i 	tells if string only gives a number 
 //just the ^ means it would match strings STARTING with a number
 //just a $ would match strings ENDING with a number
+//-? this indicstes taht the minus sign is optional:
+//\d+ ... \d = [0-9]. it matches a digit, the suffix causes it to match one or more digits
+//(?:\.\d*)?
+//(?:...?) indicates the first operational noncapturing group
+//will match a decimal followed by zero or more digits
+//(?:e[+\-]?\d+)?
+//another optional noncapturing group
+//matches e (or E), an optional sign, and one or more digits
+
+
+
+
+
+
+
+
+
+
+
